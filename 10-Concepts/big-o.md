@@ -1,5 +1,5 @@
-﻿# Big-O – TL;DR
-Put your two-line summary here.
+﻿# big-o â€“ TL;DR
+<two-line summary>
 
 ## My definition
 ...
@@ -8,5 +8,5 @@ Put your two-line summary here.
 ...
 
 ## Connections
-- link 1
-- link 2
+- 
+- 
