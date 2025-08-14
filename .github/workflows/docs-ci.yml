@@ -1,0 +1,19 @@
+name: Docs CI
+on:
+  pull_request:
+    paths: ['**.md', '.github/workflows/docs-ci.yml']
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+      - run: npm init -y
+      - run: npm i -D markdownlint-cli markdown-link-check cspell
+      - run: npx markdownlint "**/*.md"
+      - run: npx cspell "**/*.md" --no-progress
+      - name: Link check
+        run: |
+          for f in $(git ls-files '*.md'); do
+            npx markdown-link-check -q "$f" || exit 1
+          done
