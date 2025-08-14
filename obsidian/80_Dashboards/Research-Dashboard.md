@@ -60,3 +60,10 @@ task from "10_Daily"
 where !completed and text =~ /Research Habit/
 sort file.name desc
 ```
+
+## Active Projects
+```dataview
+table due, status
+from "obsidian/30_Projects"
+where type = "project" and status != "done"
+sort due asc
