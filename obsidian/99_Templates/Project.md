@@ -5,8 +5,13 @@ status: "idea"
 due:
 tags: [project]
 ---
+
 ## Why / Outcome
+
 ## Plan
+
 ## Tasks
+
 - [ ]
+
 ## Notes
