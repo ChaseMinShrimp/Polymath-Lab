@@ -10,3 +10,9 @@ node_modules/
 dist/
 build/
 .obsidian/
+# Obsidian cache/trash
+obsidian/.obsidian/cache/
+obsidian/.trash/
+
+# Notebooks
+.ipynb_checkpoints/
