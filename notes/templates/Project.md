@@ -9,6 +9,6 @@ tags: [project]
 ---
 ## Hypothesis / Objective
 ## Current best plan
-## Next actions (1–3 max)
+## Next actions (1ï¿½3 max)
 - [ ] 
 ## Notes / Links
